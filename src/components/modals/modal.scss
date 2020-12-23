@@ -1,0 +1,55 @@
+.connection-modal {
+  .modal-dialog {
+    max-width: none;
+  }
+
+  .modal-content {
+    max-width: 1000px;
+    margin: auto;
+    border-radius: 24px;
+  }
+
+  .modal-header {
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-radius: 24px 24px 0 0;
+    padding-bottom: 50px;
+  }
+
+  .modal-body {
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    button {
+      position: absolute;
+      top: -30px;
+      left: calc(50% - 130px);
+      height: 60px;
+      width: 250px;
+      border-radius: 20px;
+      border: 1px solid black;
+      background: gold;
+      font-size: 30px;
+      color: black;
+    }
+  }
+
+  form {
+    color: deepskyblue;
+
+    input {
+      height: 50px;
+      color: deepskyblue;
+    }
+
+    .first {
+      padding: 0 15%;
+    }
+    .second {
+      padding: 0 30%;
+    }
+  }
+}

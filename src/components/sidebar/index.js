@@ -1,6 +1,10 @@
 import React from 'react';
+import { Row, Col } from 'react-bootstrap';
 import routes from '../../routes';
 import Logo from '../../assets/images/logo.png';
+import Instagram from '../../assets/images/instagram.png';
+import Twitter from '../../assets/images/twitter.png';
+import Facebook from '../../assets/images/facebook.png';
 import './sidebar.scss';
 
 const Sidebar = () => {
@@ -17,6 +21,11 @@ const Sidebar = () => {
           </ul>
         </div>
       ))}
+      <Row className='social'>
+        <Col><img src={Instagram} alt='i' width={24} /></Col>
+        <Col><img src={Twitter} alt='t' width={24} /></Col>
+        <Col><img src={Facebook} alt='f' width={24} /></Col>
+      </Row>
     </section>
   );
 };
